@@ -1,4 +1,3 @@
-import org.junit.Test;
 import patterns.CompositePattern.BinExpr;
 import patterns.CompositePattern.Const;
 import patterns.CompositePattern.Mult;
@@ -9,7 +8,7 @@ import patterns.ItteratorPattern.Iterator;
 import patterns.ItteratorPattern.LL;
 import patterns.ItteratorPattern.LLIterator;
 import patterns.SingletonPattern.SingletonClasseChallenge;
-import patterns.StatePattern.G36;
+import patterns.StatePattern_V1.G36;
 import patterns.VisitorPattern.BronzCard;
 import patterns.VisitorPattern.CashbackHotel;
 import patterns.VisitorPattern.Creditcard;

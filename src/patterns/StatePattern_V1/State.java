@@ -1,4 +1,4 @@
-package patterns.StatePattern;
+package patterns.StatePattern_V1;
 
 public interface State {
     void next(G36 g);

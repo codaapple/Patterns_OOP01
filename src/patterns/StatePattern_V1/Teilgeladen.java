@@ -1,4 +1,4 @@
-package patterns.StatePattern;
+package patterns.StatePattern_V1;
 
 public class Teilgeladen implements State{
     @Override
