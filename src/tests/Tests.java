@@ -4,6 +4,7 @@ import org.junit.Test;
 import static org.junit.Assert.*;
 import patterns.SingletonPattern.SingletonClasseChallenge;
 
+import java.util.NoSuchElementException;
 
 public class Tests {
 

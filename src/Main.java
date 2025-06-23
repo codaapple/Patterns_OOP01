@@ -7,6 +7,7 @@ import patterns.FactoryPattern.Produkt;
 import patterns.ItteratorPattern.Iterator;
 import patterns.ItteratorPattern.LL;
 import patterns.ItteratorPattern.LLIterator;
+import patterns.ItteratorPattern2.ArrayList1;
 import patterns.SingletonPattern.SingletonClasseChallenge;
 import patterns.StatePattern_V1.G36;
 import patterns.VisitorPattern.BronzCard;
@@ -16,8 +17,11 @@ import patterns.VisitorPattern.GoldCard;
 import patterns.VisitorPattern.SilverCard;
 import patterns.anything.shortInt;
 
+
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
+import java.util.Set;
 
 public class Main {
 
@@ -106,6 +110,24 @@ public class Main {
         c1.print();
 
 
+        //Iterator Pattern2
+
+        System.out.println("------------------------------------");
+        System.out.println("Iterator Pattern2");
+
+        ArrayList1 AL = new ArrayList1();
+        AL.add(1);
+        AL.add(2);
+        AL.add(3);
+        AL.add(true);
+        AL.add("Naumann");
+        AL.foreachprint();
+        AL.add(4);
+        AL.add(5);
+        AL.add(false);
+        AL.add("Sauer");
+        AL.foreachprint();
+
         //Enum
 
         System.out.println("------------------------------------");
@@ -113,7 +135,6 @@ public class Main {
 
         System.out.println(shortInt.One.ordinal());
         System.out.println(shortInt.Seven.ordinal());
-
 
     }
 
