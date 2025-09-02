@@ -69,7 +69,7 @@ public class Main {
         System.out.println("Factory Pattern");
 
         Produkt produkt1 = Creator.createProdukt("produkt1");
-        Produkt produkt2 = Creator.createProdukt("produkt2");
+        Produkt produkt2 = Creator.crea                                     teProdukt("produkt2");
         Produkt produkt3 = Creator.createProdukt("Apfel");
         //Creator.createProdukt("produkt3");
         System.out.println(produkt1.toString());
