@@ -26,7 +26,7 @@ public class Sudoku {
 
         for (int y = 0; y < 9; y++) {
             if (y > 0 && y % 3 == 0) {
-                sb.append("---------+---------+---------").append(nl);
+                sb.append("------+-------+------").append(nl);
             }
             for (int x = 0; x < 9; x++) {
                 if (x > 0) {
